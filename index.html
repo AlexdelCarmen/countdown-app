@@ -1,40 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iPhone Giveaway Countdown</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="countdown-container">
-        <img src="./assets/iphone.jpg" alt="Old iPhone">
-        <div class="countdown-wrapper">
-            <div class="countdown-title-container">
-                <h1 class="countdown-title">Old iPhone giveaway</h1>
-                <p class="countdown-date">Giveaway ends on <span id="countdown-date"></span></p>
-            </div>
-            <p class="countdown-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, rerum. Cumque consequatur vel nemo quam mollitia neque harum asperiores, molestias illum assumenda commodi minus necessitatibus nulla omnis natus maxime perferendis!</p>
-            <div class="countdown-timer-container">
-                <div class="countdown-timer">
-                    <p class="countdown-number" id="days">00</p>
-                    <p class="countdown-text">days</p>
-                </div>
-                <div class="countdown-timer">
-                    <p class="countdown-number" id="hours">00</p>
-                    <p class="countdown-text">hours</p>
-                </div>
-                <div class="countdown-timer">
-                    <p class="countdown-number" id="minutes">00</p>
-                    <p class="countdown-text">minutes</p>
-                </div>
-                <div class="countdown-timer">
-                    <p class="countdown-number" id="seconds">00</p>
-                    <p class="countdown-text">seconds</p>
-                </div>
-            </div>
+      <img src="./assets/iphone.jpg" alt="Old iPhone" />
+      <div class="countdown-wrapper">
+        <div class="countdown-title-container">
+          <h1 class="countdown-title">Old iPhone Giveaway</h1>
+          <p class="countdown-date">
+            Giveaway ends on <span id="date"></span>
+          </p>
         </div>
+        <p class="countdown-paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+          rerum. Cumque consequatur vel nemo quam mollitia neque harum
+          asperiores, molestias illum assumenda commodi minus necessitatibus
+          nulla omnis natus maxime perferendis!
+        </p>
+        <div class="countdown-timer-container">
+          <div class="countdown-timer">
+            <p class="countdown-number" id="days">00</p>
+            <p class="countdown-text">days</p>
+          </div>
+          <div class="countdown-timer">
+            <p class="countdown-number" id="hours">00</p>
+            <p class="countdown-text">hours</p>
+          </div>
+          <div class="countdown-timer">
+            <p class="countdown-number" id="minutes">00</p>
+            <p class="countdown-text">mins</p>
+          </div>
+          <div class="countdown-timer">
+            <p class="countdown-number" id="seconds">00</p>
+            <p class="countdown-text">secs</p>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
-<script src="./script.js"></script>
+  </body>
+  <script src="./script.js"></script>
 </html>
